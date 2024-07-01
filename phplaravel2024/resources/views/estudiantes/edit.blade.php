@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Editar docente</h1>
+    <h1>Editar estudiantes</h1>
     <form action="{{ route('estudiantes.update', $estudiante->id) }}" method="POST">
         @csrf
         <div class="row">
@@ -33,3 +33,4 @@
 
     </form>
 @endsection
+
